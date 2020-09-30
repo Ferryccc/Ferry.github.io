@@ -1,0 +1,225 @@
+/*1*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    overflow-x: hidden;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+canvas{
+    display:block;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #555555;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #555555;
+}
+
+header, main {
+    float: right;
+    width: 77%;
+    box-sizing: border-box;
+    padding: 0 5% 5% 5%;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.page-section {
+    padding: 30px;
+    padding-top: 60px;
+}
+
+hr {
+    position: relative;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    height: 5px;
+    background: #dddddd;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+
+/*2*/
+.sidebar-menu {
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    background-color: grey;
+    color: white;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.top-section {
+    padding: 40px;
+}
+
+.profile-image {
+    display: block;
+    border: 4px solid white;
+    border-radius: 200%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 70%;
+    height: 0;
+    padding-bottom: 70%; /* 让div的高等于宽 */
+    border-radius: 50%;
+
+}
+.profile-image img {
+    width: 100%;
+}
+
+.profile-title {
+    margin-bottom: 5px;
+    color: white;
+    font-size: 30px;
+}
+.profile-description {
+    font-size: 22px;
+}
+
+
+.profile-title, .profile-description {
+    position: relative;
+    left: 10%;
+}
+
+.side-navigation {
+    margin: 30px 0;
+}
+.side-navigation li {
+    display: block;
+}
+.side-navigation li a {
+    padding: 15px 40px;
+    display: block;
+    color: white;
+    font-size: 18px;
+}
+.side-navigation li a:hover {
+    background: #5b6878;
+}
+
+
+/*3*/
+header {
+    padding: 260px 80px;
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    z-index: 2;
+}
+
+.welcome-text {
+    position: relative;
+    z-index: 4;
+}
+.welcome-text h2 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+.welcome-text p {
+    font-size: 25px;
+    color: white;
+}
+
+.about-image img{
+    overflow: hidden;
+    border: 4px solid #dddddd;
+    margin-bottom: 40px;
+    float: left;
+}
+.about-image img {
+    width: 30%;
+    display: block;
+}
+.about-text {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+main h3 {
+    letter-spacing: 5px;
+}
+
+.Hobbies-text {
+    font-size: 20px;
+}
+
+
+.photo-item {
+    width: 45%;
+    max-height: auto;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.photo-item img {
+    width: 100%;
+}
+.photo-item:hover .item-hover {
+    top: 0;
+    opacity: 1;
+}
+.item-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    transition: all 200ms linear;
+}
+.item-hover h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+.item-hover p {
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.full-img {
+    position: relative;
+    display: block;
+    width: 70%;
+}
+.full-img img{
+    width: 100%;
+}
+.thumb-bar {
+    width: 75%;
+}
+.thumb-bar img {
+    display: block;
+    height: 236px;
+    float: left;
+    cursor: pointer;
+}
